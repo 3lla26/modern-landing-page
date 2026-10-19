@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#263b31">
+  <meta name="description" content="Still — a little closer to nature. Discover thoughtful escapes, quiet trails, and a slower way to spend your days.">
+  <title>Still — A little closer to nature</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <a class="wordmark" href="#" aria-label="Still home">still<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#escapes">The escapes</a>
+      <a href="#philosophy">Our philosophy</a>
+    </nav>
+    <a class="header-cta" href="#contact">Find your quiet <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/forest.jpg" alt="Layers of forested mountains disappearing into the morning mist" fetchpriority="high" width="1900" height="1188">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="small-line"></span> LESS NOISE. MORE NATURE.</p>
+        <h1 id="hero-title">A little closer<br>to <em>nature.</em></h1>
+        <p class="hero-description">Step out of the everyday. Find thoughtful escapes<br class="desktop-break"> that bring you back to what matters.</p>
+        <a class="button" href="#escapes">Explore the escapes <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-bottom">
+        <p>Good places. A slower pace.</p>
+        <a href="#philosophy">SCROLL TO WANDER <span aria-hidden="true">↓</span></a>
+        <p class="hero-note">Somewhere away from it all.</p>
+      </div>
+    </section>
+
+    <section class="philosophy section-wrap" id="philosophy" aria-labelledby="philosophy-title">
+      <p class="eyebrow section-label">01 / THE STILL WAY</p>
+      <div>
+        <h2 id="philosophy-title">Less on your schedule.<br><em>More room to breathe.</em></h2>
+        <p>We believe the best escapes don’t ask much of you. Just a little curiosity, a pair of walking shoes, and the freedom to take the long way back.</p>
+      </div>
+      <svg class="nature-mark" width="74" height="74" viewBox="0 0 74 74" fill="none" aria-hidden="true"><path d="M37 7v60M7 37h60M16 16l42 42M16 58l42-42" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+    </section>
+
+    <section class="escapes section-wrap" id="escapes" aria-labelledby="escapes-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / A CHANGE OF SCENERY</p><h2 id="escapes-title">Find your kind of <em>away.</em></h2></div>
+        <p>No rush. No wrong turns.<br>Just somewhere you’d rather be.</p>
+      </div>
+      <div class="escape-grid">
+        <a class="escape" href="#mountain-escape">
+          <div class="image-wrap"><img src="assets/cabin.jpg" alt="A rugged mountain summit rising above a bank of clouds" width="700" height="500" loading="lazy"><span class="image-arrow" aria-hidden="true">↗</span></div>
+          <div class="escape-caption"><h3>The higher ground</h3><span>MOUNTAIN AIR</span></div>
+        </a>
+        <a class="escape" href="#forest-escape">
+          <div class="image-wrap"><img src="assets/lake.jpg" alt="Quiet mountain slopes and forest beneath drifting mist" width="700" height="500" loading="lazy"><span class="image-arrow" aria-hidden="true">↗</span></div>
+          <div class="escape-caption"><h3>A quieter corner</h3><span>FOREST DAYS</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="invitation section-wrap" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">YOUR NEXT CHAPTER, OUTSIDE.</p>
+      <h2 id="contact-title">Make a little space<br>for <em>something slower.</em></h2>
+      <a class="button light-button" href="mailto:hello@example.com?subject=My%20Still%20escape">Let’s plan an escape <span aria-hidden="true">↗</span></a>
+      <p class="contact-note">A concept for a slower kind of travel.</p>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="wordmark" href="#" aria-label="Still home">still.</a><p>A little closer to nature.</p><span>© 2026 Still</span></footer>
+
+  <dialog id="mountain-escape" class="escape-detail" aria-labelledby="mountain-title">
+    <a href="#escapes" class="close-detail" aria-label="Close mountain escape">×</a>
+    <p class="eyebrow">MOUNTAIN AIR</p><h2 id="mountain-title">The higher ground</h2>
+    <p>Early starts, open trails, and a view worth slowing down for. A mountain escape is an invitation to follow your curiosity, one step at a time.</p>
+    <a class="text-link" href="#contact">Plan your mountain escape ↗</a>
+  </dialog>
+  <dialog id="forest-escape" class="escape-detail" aria-labelledby="forest-title">
+    <a href="#escapes" class="close-detail" aria-label="Close forest escape">×</a>
+    <p class="eyebrow">FOREST DAYS</p><h2 id="forest-title">A quieter corner</h2>
+    <p>Winding paths, the scent of pine, and nowhere you need to be. Step into the trees and let the day unfold at its own pace.</p>
+    <a class="text-link" href="#contact">Plan your forest escape ↗</a>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
